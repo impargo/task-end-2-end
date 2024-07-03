@@ -4,7 +4,7 @@
     "debug": "playwright test --debug"
   },
   "devDependencies": {
-    "@playwright/test": "^1.27.1",
-    "playwright": "^1.27.1"
+    "@playwright/test": "^1.45.1",
+    "playwright": "^1.45.1"
   }
 }

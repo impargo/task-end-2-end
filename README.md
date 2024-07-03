@@ -19,7 +19,7 @@ In this workflow a user should be able to visit reddit.com. Choose a subreddit t
 
 ## Workflow 2: Create and save a draft post
 In this workflow users should be able to create a draft post. Posts are created as part of a subreddit to which they can be then posted later. The website should save the draft posts for later usage. 
-
+Note, before a user can create a draft post they need to subscribe to the subreddit and request access to be allowed to post.
 
 ![Workflow 2](./docs/task2.gif "image_tooltip")
 
@@ -33,10 +33,11 @@ It is crucial that for the user experience of the user that the main page (reddi
 
 To implement the tasks you need to have nodejs and yarn installed on your machine. 
 
-By running the following command in the root directory of this repository all dependencies should be installed:
+By running the following commands in the root directory of this repository all dependencies should be installed:
 
 ```
 yarn install
+yarn playwright install
 ```
 
 Then you can run the following command to run the browser automation tests. You should see a browser window loading reddit.com after you press the green “play” button.
